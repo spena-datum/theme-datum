@@ -1,0 +1,758 @@
+/* These inject tags are used for dynamically creating imports for themelet styles, you can place them where ever you like in this file. */
+
+
+/* inject:imports */
+
+
+/* endinject */
+
+
+/* This file allows you to override default styles in one central location for easier upgrade and maintenance. */
+
+
+/*header*/
+
+.main-menubox {
+    display: none;
+}
+
+
+/*fonts*/
+
+@font-face {
+    font-family: 'Myriad Pro_Regular';
+    src: local('Myriad Pro_Regular'), url(./font/Myriad_Pro_Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Myriad Pro_Black';
+    src: local('Myriad Pro_Black'), url(./font/Myriad_Pro_Black.otf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Myriad Pro_Bold';
+    src: local('Myriad Pro_Bold'), url(./font/Myriad_Pro_Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Myriad Pro_Semibold';
+    src: local('Myriad Pro_Semibold'), url(./font/Myriad_Pro_Semibold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Myriad Pro_Light';
+    src: local('Myriad Pro_Light'), url(./font/Myriad_Pro_Light.otf) format('truetype');
+}
+
+h1 {
+    font-family: Myriad Pro_Black;
+    font-size: 6rem;
+    line-height: 104px;
+}
+
+h2 {
+    font-family: Myriad Pro_Black;
+    font-size: 3.5rem;
+    line-height: 64px;
+}
+
+h3 {
+    font-family: Myriad Pro_Semibold;
+    font-size: 2.25rem;
+    line-height: 48px;
+}
+
+h4 {
+    font-family: Myriad Pro_Semibold;
+    font-size: 1.5rem;
+    line-height: 32px;
+}
+
+h5 {
+    font-family: Myriad Pro_Bold;
+    font-size: 1.125rem;
+    line-height: 24px;
+}
+
+.h5disenioHome {
+    font-family: Myriad Pro_Regular;
+    font-size: 1.125rem;
+    line-height: 24px;
+}
+
+p {
+    font-family: Myriad Pro_Regular;
+    font-size: 1rem;
+    line-height: 24px;
+}
+
+.a {
+    font-family: Myriad Pro_Semibold;
+    text-align: justify;
+}
+
+.adisenio {
+    font-family: Myriad Pro_Semibold;
+    text-align: justify;
+}
+
+
+/* .navbar, define el tamanio de la altura que contiene el logo y el menu
+en la etiqueta navbar, tambien esta definida una propiedad navbar light; bg-light
+esta ultima se antepone al background definido aca
+*/
+
+.navbar {
+    background: blue;
+    height: 80px;
+}
+
+
+/* Define el tamanio del logo y su background*/
+
+.logo {
+    background: #ffffff;
+    max-width: 350px;
+}
+
+li.nav-item {
+    padding: 10px 20px;
+}
+
+li.nav-item-button {
+    padding: 18px 10px 0 10px;
+}
+
+li.nav-item-icon {
+    padding: 0 10px;
+}
+
+
+/* color de letras del menu*/
+
+a.nav-link {
+    font-weight: bold;
+    color: #000000 !important;
+}
+
+
+/*color al pasar mouse sobre letras del menu*/
+
+a.nav-link:hover {
+    color: #555555 !important;
+}
+
+
+/*estilo boton de contactanos*/
+
+.button-contact {
+    text-decoration: none;
+    background: #5C8A99;
+    width: 150px;
+    text-align: center;
+    padding: 11px 25px;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+.button-contact:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #547E8C;
+}
+
+
+/* Carousel */
+
+
+/* bussines-area */
+
+.bussines-area {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+}
+
+.bussines-area h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.bussines-area p {
+    max-width: 550px;
+    text-align: center;
+}
+
+.p-icon-bussines {
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+
+/* seccion 3 lideres en el mercado*/
+
+
+/*espacio entre el div de los iconos y la seccion lideres en el mercado
+.section-padding{
+  padding: 4rem 0;
+}
+*/
+
+.direction-column {
+    flex-direction: column;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.grid-2-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 4rem;
+    grid-column-gap: 5rem;
+}
+
+.img-next {
+    width: 100%;
+}
+
+
+/* container h1, para titulos en la seccion3, seccion 5:nuestros partners y seccion 7:nuestros clientes */
+
+.container h1 {
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.btn-conoce-mas {
+    padding: 1rem 3rem;
+    font-weight: 700;
+    background: #5C8A99;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-conoce-mas:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #547E8C;
+}
+
+
+/* seccion 4 banner #7EA4B1 #669999 #5C8A99 #547E8C*/
+
+.datos-banner {
+    background-color: #5C8A99;
+    color: #fff;
+}
+
+.seccion-margen {
+    padding: 4rem 0;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.s-p-detalle p {
+    font-weight: 500;
+}
+
+
+/*
+.main-s-p-numero{
+  font-size: 3rem;
+}
+*/
+
+
+/*seccion 5 partners*/
+
+.seccion-partners {
+    min-height: calc(100vh - 80px);
+    width: 100%;
+}
+
+
+/*
+.seccion-partners h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+*/
+
+
+/*Card en partners de pagina home*/
+
+.card-home-partner {
+    width: 18rem;
+    height: 12rem;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-home-cliente {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+}
+
+
+/*
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}*/
+
+.carousel-indicators li {
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    border: 2px solid rgb(175, 175, 175);
+    background: white;
+    border-color: border-info;
+}
+
+.indicador [class*="active"] {
+    background: rgb(175, 175, 175);
+}
+
+.bg-home-transformacion-digital {
+    background-image: url("de ");
+}
+
+.invalid-custom {
+    border-color: #dc3545;
+}
+
+.bg-card-home {
+    background-color: #5C8A99;
+}
+
+.scroll-card-home {
+    overflow: scroll;
+    overflow-y: scroll;
+}
+
+.mouse {
+    cursor: pointer;
+}
+
+
+/* seccion 6 capacitate junto a nosotros*/
+
+.btn-container {
+    margin-top: 2rem;
+}
+
+
+/* seccion 7 nuestros clientes*/
+
+.seccion-clientes {
+    padding-bottom: 4rem;
+}
+
+
+/*seccion 8 banner transformacion digital*/
+
+.btn-envianos-un-mensaje {
+    padding: 1rem 3rem;
+    font-weight: 700;
+    background: #ffffff;
+    color: #000;
+    text-decoration: none;
+}
+
+.container-redes-sociales {
+    margin-top: 4rem;
+}
+
+.container-redes-sociales h5 {
+    font-weight: normal;
+}
+
+
+/*listos para la transformacion digital*/
+
+.section-heading {
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+
+/*
+.redes-sociales{
+  color: #7EA4B1;
+}
+
+.redes-sociales i{
+  background-color: white;
+  
+}
+
+.red-social{
+ color: red;
+ 
+ margin-bottom: 50px;
+}
+*/
+
+.btn-inscribirse {
+    padding: 1rem 3rem;
+    font-weight: 700;
+    background: #5C8A99;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-inscribirse:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #547E8C;
+}
+
+.btn-container-inscribirse {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.btn-resumen {
+    padding: 1rem 3rem;
+    font-weight: 700;
+    background: #5C8A99;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-resumen:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #547E8C;
+}
+
+.btn-container-resumen {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.portlet-title-text {
+    display: none;
+    margin-top: 0;
+    max-width: 95%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    white-space: nowrap;
+}
+
+.portlet-content,
+.portlet-minimized .portlet-content-container {
+    padding: inherit;
+}
+
+
+/* PAGINA COMPAÑIA - TIMELINE */
+
+.section-timeline {
+    padding: 0 0;
+    background-color: #F4F7FB;
+}
+
+.p-year-1993 {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+.p-year-2009 {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+.p-year-2014 {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    max-width: 175px;
+    margin: 0 auto;
+}
+
+.tooltip-prime .tooltip-inner {
+    background-color: #5C8A99 !important;
+    color: #fff !important;
+    font-family: Myriad Pro_Regular;
+    max-width: 350px !important;
+}
+
+.bs-tooltip-auto[x-placement^=bottom] .arrow::before,
+.bs-tooltip-bottom .arrow::before {
+    border-bottom-color: #fff !important;
+}
+
+.modal-custom {
+    margin: auto;
+    width: 80%;
+    display: none;
+}
+
+
+/* formulario-contactanos*/
+
+.input-background {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+textarea {
+    overflow-x: auto;
+    overflow-y: auto;
+    resize: none;
+    text-indent: 1.5em;
+}
+
+.btn-contactanos {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    width: 150px;
+    padding: 11px 25px;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #5C8A99;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.modal-content {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .2);
+    border-radius: .3rem;
+    outline: 0;
+}
+
+.background-moda {
+    background-color: #F4F7FB;
+}
+
+.btn-modal {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s;
+    text-size-adjust: inherit;
+    color: #fff;
+    background-color: #5C8A99;
+}
+
+.btn-modal:hover {
+    text-decoration: none;
+    color: #fff;
+    background: #547e8c;
+}
+
+.modal-dialog-custom {
+    max-width: 700px;
+}
+
+
+/* .modal-content-custom permite tambien desplegar el modal de las opciones de paginas*/
+
+.modal-content-custom {
+    position: relative;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    pointer-events: auto;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1.25rem;
+    outline: 0;
+}
+
+.modal-ac {
+    display: none;
+    overflow: auto;
+}
+
+.modal-open .modal {
+    overflow: auto;
+}
+
+.renovaciones-fondo {
+    background-color: #F4F7FB;
+}
+
+.background-soluciones {
+    background-color: #F4F7FB;
+}
+
+.border-color-custom {
+    border-top: 3px solid #B80000!important;
+}
+
+
+/* Bordes para las cards de soluciones*/
+
+.border-custom {
+    border-color: #F4F7FB !important;
+    border-width: 3px;
+}
+
+.wrapper {
+    width: 200px;
+    padding: 20px;
+    height: 150px;
+}
+
+
+/*darle color al formulario como se muestra en las mockups*/
+
+.form-input {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #f1f2f5;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow
+}
+
+
+/** Galeria RSE*/
+
+.text-sobre-img {
+    background-color: rgba(33, 31, 34, 0.63);
+}
+
+.solido {
+    opacity: 1;
+}
+
+.posision-text-img {
+    position: absolute;
+    right: 0%;
+    bottom: 20px;
+    left: 0%;
+    z-index: 10;
+    padding-top: 20px;
+    bottom: 0%;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+}
+
+.card-mision-vision-valores {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #5C8A99;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .5rem;
+}
+
+.card-pag-partner {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .4rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
