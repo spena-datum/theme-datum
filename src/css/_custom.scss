@@ -393,6 +393,27 @@ a.nav-link:hover {
     background: #ffffff;
     color: #000;
     text-decoration: none;
+    margin-left: 4rem;
+}
+
+.btn-enviarUnMensaje {
+    display: inline-block;
+    font-weight: 400;
+    color: #000;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: white;
+    border: 1px solid transparent;
+    padding: .375rem 1.5rem;
+    font-size: 1.1rem;
+    line-height: 2;
+    transition: color .15s;
+    text-size-adjust: inherit;
+    font-family: Myriad Pro_Regular;
 }
 
 .container-redes-sociales {
@@ -755,4 +776,48 @@ textarea {
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .4rem;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-img-top-evento {
+    width: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card-footer-evento {
+    padding: .75rem 1.4rem;
+    background-color: rgba(0, 0, 0, .03);
+}
+
+.card-pag-evento {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .6rem;
+}
+
+.btn-conoce-mas-educacion {
+    padding: 0.8rem 3rem;
+    font-weight: 400;
+    background: #669999;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-conoce-mas-educacion:hover {
+    padding: 0.8rem 3rem;
+    text-decoration: none;
+    color: #ffffff;
+    background: #5C8A99;
+    font-weight: 400;
 }
