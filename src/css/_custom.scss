@@ -612,29 +612,30 @@ textarea {
 
 .btn-modal {
     display: inline-block;
-    font-weight: 400;
-    color: #212529;
+    padding: 1rem 3rem;
+    font-weight: 700;
     text-align: center;
     vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
-    background-color: transparent;
     border: 1px solid transparent;
-    padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
     transition: color .15s;
     text-size-adjust: inherit;
     color: #fff;
-    background-color: #5C8A99;
+    background: #5C8A99;
+    text-decoration: none;
 }
 
 .btn-modal:hover {
     text-decoration: none;
-    color: #fff;
-    background: #547e8c;
+    color: #ffffff;
+    background: #547E8C;
+}
+
+.btn-modal:focus {
+    outline: none;
+    box-shadow: none;
 }
 
 .modal-dialog-custom {
