@@ -116,7 +116,11 @@ esta ultima se antepone al background definido aca
 }
 
 li.nav-item {
-    padding: 10px 20px;
+    padding: 15px 15px;
+}
+
+li.nav-item-menu {
+    padding: 5px 10px;
 }
 
 li.nav-item-button {
@@ -399,7 +403,7 @@ a.nav-link:hover {
 .btn-enviarUnMensaje {
     display: inline-block;
     font-weight: 400;
-    color: #000;
+    color: #231F20;
     text-align: center;
     vertical-align: middle;
     -webkit-user-select: none;
@@ -414,6 +418,11 @@ a.nav-link:hover {
     transition: color .15s;
     text-size-adjust: inherit;
     font-family: Myriad Pro_Regular;
+}
+
+.btn-enviarUnMensaje:hover {
+    text-decoration: none;
+    color: #231F20;
 }
 
 .container-redes-sociales {
@@ -503,6 +512,10 @@ a.nav-link:hover {
     padding: inherit;
 }
 
+.portlet {
+    margin-bottom: 0px !important;
+}
+
 
 /* PAGINA COMPAÑIA - TIMELINE */
 
@@ -576,28 +589,6 @@ textarea {
     overflow-y: auto;
     resize: none;
     text-indent: 1.5em;
-}
-
-.btn-contactanos {
-    display: inline-block;
-    font-weight: 400;
-    color: #212529;
-    width: 150px;
-    padding: 11px 25px;
-    text-align: center;
-    vertical-align: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    background-color: transparent;
-    border: 1px solid transparent;
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    line-height: 1.5;
-    color: #fff;
-    background-color: #5C8A99;
-    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 .modal-content {
@@ -775,7 +766,7 @@ textarea {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .4rem;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 5px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-img-top-evento {
@@ -820,4 +811,32 @@ textarea {
     color: #ffffff;
     background: #5C8A99;
     font-weight: 400;
+}
+
+.btn-contactanos {
+    width: 200px;
+    padding: 11px 20px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.2rem;
+    color: #FFFFFF;
+    background-color: #5C8A99;
+    font-family: Myriad Pro_Regular;
+    text-decoration: none;
+}
+
+.btn-contactanos:hover {
+    background-color: #547E8C;
+    text-decoration: none;
+}
+
+.container-fluid {
+    overflow-x: hidden;
+}
+
+.navbar-fixed-custom {
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    z-index: 10;
 }
