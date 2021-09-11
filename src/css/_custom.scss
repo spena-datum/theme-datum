@@ -307,7 +307,6 @@ a.nav-link:hover {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .card-home-cliente {
@@ -814,19 +813,24 @@ textarea {
     font-weight: 400;
 }
 
-.btn-contactanos {
-    width: 200px;
-    padding: 11px 20px;
+.btn-form {
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    font-weight: 700;
     text-align: center;
-    font-size: 18px;
-    line-height: 1.2rem;
-    color: #FFFFFF;
-    background-color: #5C8A99;
-    font-family: Myriad Pro_Regular;
+    vertical-align: middle;
+    user-select: none;
+    border: 1px solid transparent;
+    font-size: 1rem;
+    line-height: 1.5;
+    transition: color .15s;
+    text-size-adjust: inherit;
+    color: #fff;
+    background: #5C8A99;
     text-decoration: none;
 }
 
-.btn-contactanos:hover {
+.btn-form:hover {
     background-color: #547E8C;
     text-decoration: none;
 }
