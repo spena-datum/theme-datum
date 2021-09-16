@@ -7,19 +7,17 @@
 <head>
 	<title>${the_title} - ${company_name}</title>
 	<meta content="initial-scale=1.0, width=device-width" name="viewport"/>
-	
-	<link  rel="icon" href="${ruta}/icons/favicon.ico"/>
-
+	<link  rel="icon" href="${ruta}/icons/favicon1.ico"/>
 	<link rel="apple-touch-icon" sizes="180x180" href="${ruta}/icons/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="${ruta}/icons/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="${ruta}/icons/favicon-16x16.png">
 	<link rel="manifest" href="${ruta}/icons/site.webmanifest">
 	<link rel="mask-icon" href="${ruta}/icons/safari-pinned-tab.svg" color="#5bbad5">
-	<link rel="shortcut icon" href="${ruta}/icons/favicon.ico">
-	<meta name="msapplication-TileColor" content="#2d89ef">
+	<meta name="msapplication-TileColor" content="#a20630">
 	<meta name="msapplication-config" content="${ruta}/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-<#--  
+	
+ 
 	<script>
         $(document).ready(function() {
             $('[data-toggle="tooltip"]').tooltip({
@@ -28,7 +26,7 @@
                 template: '<div class="tooltip tooltip-prime" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
             });
         });
-    </script>  -->
+    </script> 
 	<!–– inicio ––>
 	<@liferay_util["include"] page=top_head_include />
 	<!–– fin ––>

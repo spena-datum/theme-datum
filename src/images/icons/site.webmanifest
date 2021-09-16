@@ -1,9 +1,9 @@
 {
-    "name": "datum",
-    "short_name": "datum",
+    "name": "",
+    "short_name": "",
     "icons": [
         {
-            "src": "/icons/android-chrome-192x192.png",
+            "src": "/android-chrome-192x192.png",
             "sizes": "192x192",
             "type": "image/png"
         }
