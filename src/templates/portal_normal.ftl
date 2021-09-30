@@ -37,16 +37,24 @@
 			<@liferay_util["include"] page=body_top_include />
 
 				<@liferay.control_menu />
-		<div class=""> 
 
-
-			 <header id="banner" role="banner" class="fixed-top">
-				<#if !is_signed_in>
-					<a data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" id="sign-in" rel="nofollow">${sign_in_text}</a>
-				</#if>
+		<#if !is_signed_in>
+			<header id="banner" role="banner" class="fixed-top">
+				<a id="IconoMenu" data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" rel="nofollow">
+					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px">
+				</a>
 			</header>
-		</div>
+		<#else>
+			<header id="banner" role="banner" class="fixed-top">
+				<a id="IconoMenu" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" rel="nofollow">
+					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px"> 
+				</a>
+			</header>
+			
+		</#if>
 
+		
+			 
 		<#--  realizando la invacioón del menú de navegación  -->
 		<#if has_navigation && is_setup_complete && show_header>
 			<#include "${full_templates_path}/navigation.ftl" />
