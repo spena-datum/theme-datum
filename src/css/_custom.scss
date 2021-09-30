@@ -813,7 +813,7 @@ textarea {
     position: fixed;
     right: 0px;
     left: 0px;
-    z-index: 10;
+    z-index: 16;
 }
 
 .icono-input {
@@ -828,4 +828,63 @@ textarea {
     font-family: Myriad Pro_Regular;
     font-size: 1rem;
     line-height: 44px;
+}
+
+.btn-menu-contactenos {
+    padding: 10px 25px;
+    background: #5c8a99;
+    color: #FFFF;
+    font-size: 18px;
+    font-family: 'Myriad Pro_Semibold';
+}
+
+.btn-menu-contactenos:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #547E8C;
+}
+
+
+@media (max-width: 1199.98px){
+    .navbar-collapse .navbar-nav {
+        flex: 1;
+        flex-direction: column;
+    }
+}
+
+
+
+.scroll-y-custom {
+    height: auto;
+    max-height: 500px;
+    overflow-y :auto;
+    overflow-x :hidden;
+}
+
+/* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
+
+.scroll-y-custom::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+.scroll-y-custom::-webkit-scrollbar:vertical {
+    width:10px;
+}
+
+.scroll-y-custom::-webkit-scrollbar-button:increment,.scroll-y-custom::-webkit-scrollbar-button {
+    display: none;
+} 
+
+.scroll-y-custom::-webkit-scrollbar:horizontal {
+    height: 10px;
+}
+
+.scroll-y-custom::-webkit-scrollbar-thumb {
+    background-color: #797979;
+    border-radius: 20px;
+    border: 2px solid #f1f2f3;
+}
+
+.scroll-y-custom::-webkit-scrollbar-track {
+    border-radius: 10px;  
 }
