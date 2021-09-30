@@ -655,8 +655,10 @@ textarea {
     background-color: #F4F7FB;
 }
 
-.border-color-custom {
-    border-top: 3px solid #B80000!important;
+@media screen and (min-width: 720px){
+    .border-color-custom {
+        border-top: 3px solid #B80000!important;
+    }
 }
 
 
