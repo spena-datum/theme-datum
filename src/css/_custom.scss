@@ -408,7 +408,7 @@ a.nav-link:hover {
 }
 
 .btn-enviarUnMensaje:hover {
-    background-color:  #7EA4B1;
+    background-color: #7EA4B1;
     text-decoration: none;
     color: #fff;
 }
@@ -656,7 +656,7 @@ textarea {
     background-color: #F4F7FB;
 }
 
-@media screen and (min-width: 720px){
+@media screen and (min-width: 720px) {
     .border-color-custom {
         border-top: 3px solid #B80000!important;
     }
@@ -847,22 +847,20 @@ textarea {
     background: #547E8C;
 }
 
-
-@media (max-width: 1199.98px){
+@media (max-width: 1199.98px) {
     .navbar-collapse .navbar-nav {
         flex: 1;
         flex-direction: column;
     }
 }
 
-
-
 .scroll-y-custom {
     height: auto;
     max-height: 500px;
-    overflow-y :auto;
-    overflow-x :hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+
 
 /* Estilos para motores Webkit y blink (Chrome, Safari, Opera... )*/
 
@@ -871,12 +869,13 @@ textarea {
 }
 
 .scroll-y-custom::-webkit-scrollbar:vertical {
-    width:10px;
+    width: 10px;
 }
 
-.scroll-y-custom::-webkit-scrollbar-button:increment,.scroll-y-custom::-webkit-scrollbar-button {
+.scroll-y-custom::-webkit-scrollbar-button:increment,
+.scroll-y-custom::-webkit-scrollbar-button {
     display: none;
-} 
+}
 
 .scroll-y-custom::-webkit-scrollbar:horizontal {
     height: 10px;
@@ -889,5 +888,20 @@ textarea {
 }
 
 .scroll-y-custom::-webkit-scrollbar-track {
-    border-radius: 10px;  
+    border-radius: 10px;
+}
+
+.btn-card-educacion {
+    padding: 1.1rem 3.8rem;
+    font-size: 18px;
+    font-family: 'Myriad Pro_Semibold';
+    background: #5C8A99;
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-card-educacion:hover {
+    text-decoration: none;
+    color: #ffffff;
+    background: #547E8C;
 }
