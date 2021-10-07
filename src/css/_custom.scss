@@ -848,33 +848,33 @@ textarea {
 }
 
 .contenedor-sin-sesion {
-    position: relative;
+    position: absolute;
     top: 80px
 }
 
 .contenedor-con-sesion {
-    position: relative;
+    position: absolute;
     top: 128.5px;
 }
 
 @media (min-width: 340px) {
     .contenedor-sin-sesion {
-        position: relative;
+        position: absolute;
         top: 40px;
     }
     .contenedor-con-sesion {
-        position: relative;
+        position: absolute;
         top: 95.5px;
     }
 }
 
 @media (min-width: 1200px) {
     .contenedor-sin-sesion {
-        position: relative;
+        position: absolute;
         top: 78px;
     }
     .contenedor-con-sesion {
-        position: relative;
+        position: absolute;
         top: 141.5px;
     }
 }
