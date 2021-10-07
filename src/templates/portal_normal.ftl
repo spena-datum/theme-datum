@@ -18,15 +18,7 @@
 	<meta name="theme-color" content="#ffffff">
 	
  
-	<script>
-        $(document).ready(function() {
-            $('[data-toggle="tooltip"]').tooltip({
-				placement: 'bottom',
-                boundary: "windows",
-                template: '<div class="tooltip tooltip-prime" role="tooltip"><div class="arrow"></div><div class="tooltip-inner"></div></div>'
-            });
-        });
-    </script> 
+
 	<!–– inicio ––>
 	<@liferay_util["include"] page=top_head_include />
 	<!–– fin ––>
@@ -39,27 +31,32 @@
 				<@liferay.control_menu />
 
 		<#if !is_signed_in>
-			<header id="banner" role="banner" class="fixed-top">
+			<header id="banner" role="banner" class="fixed-top" style="display: none;">
 				<a id="IconoMenu" data-redirect="${is_login_redirect_required?string}" href="${sign_in_url}" rel="nofollow">
-					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px">
+					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px" >
 				</a>
 			</header>
 		<#else>
-			<header id="banner" role="banner" class="fixed-top">
+			<header id="banner" role="banner" class="fixed-top" style="display: none;">
 				<a id="IconoMenu" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" rel="nofollow">
-					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px"> 
+					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px" > 
 				</a>
 			</header>
 			
 		</#if>
 
-		
-			 
 		<#--  realizando la invacioón del menú de navegación  -->
 		<#if has_navigation && is_setup_complete && show_header>
 			<#include "${full_templates_path}/navigation.ftl" />
+			<#if !is_signed_in>
+				<main role="main" class="container-fluid contenedor-sin-sesion" style="padding-right: 0px; padding-left: 0px;">
+			<#else>
+				<main role="main" class="container-fluid contenedor-con-sesion" style="padding-right: 0px; padding-left: 0px;">
+			</#if>
+		<#else>
+			<main role="main" class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
 		</#if>
-		<main role="main" class="container-fluid" style="padding-right: 0px; padding-left: 0px;">
+
 			<#if selectable>
 				<@liferay_util["include"] page=content_include />
 			<#else>

@@ -847,6 +847,38 @@ textarea {
     background: #547E8C;
 }
 
+.contenedor-sin-sesion {
+    position: relative;
+    top: 80px
+}
+
+.contenedor-con-sesion {
+    position: relative;
+    top: 128.5px;
+}
+
+@media (min-width: 340px) {
+    .contenedor-sin-sesion {
+        position: relative;
+        top: 40px;
+    }
+    .contenedor-con-sesion {
+        position: relative;
+        top: 95.5px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .contenedor-sin-sesion {
+        position: relative;
+        top: 78px;
+    }
+    .contenedor-con-sesion {
+        position: relative;
+        top: 141.5px;
+    }
+}
+
 @media (max-width: 1199.98px) {
     .navbar-collapse .navbar-nav {
         flex: 1;
