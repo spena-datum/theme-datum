@@ -44,40 +44,139 @@
     src: local('Myriad Pro_Light'), url(./font/Myriad_Pro_Light.otf) format('truetype');
 }
 
-h1 {
-    font-family: Myriad Pro_Black;
-    font-size: 6rem;
-    line-height: 104px;
+
+/* h1 */
+
+@media screen and (min-width: 960px) {
+    h1 {
+        font-family: Myriad Pro_Black;
+        font-size: 54px;
+        line-height: 60px;
+    }
 }
 
-h2 {
-    font-family: Myriad Pro_Black;
-    font-size: 3.5rem;
-    line-height: 64px;
+@media screen and (min-width: 576px) {
+    h1 {
+        font-family: Myriad Pro_Black;
+        font-size: 45px;
+        line-height: 51px;
+    }
 }
 
-h3 {
-    font-family: Myriad Pro_Semibold;
-    font-size: 2.25rem;
-    line-height: 48px;
+@media screen and (max-width: 576px) {
+    h1 {
+        font-family: Myriad Pro_Black;
+        font-size: 36px;
+        line-height: 42px;
+    }
 }
 
-h4 {
-    font-family: Myriad Pro_Semibold;
-    font-size: 1.5rem;
-    line-height: 32px;
+
+/* h2 */
+
+@media screen and (min-width: 960px) {
+    h2 {
+        font-family: Myriad Pro_Black;
+        font-size: 42px;
+        line-height: 48px;
+    }
 }
 
-h5 {
-    font-family: Myriad Pro_Bold;
-    font-size: 1.125rem;
-    line-height: 24px;
+@media screen and (min-width: 576px) {
+    h2 {
+        font-family: Myriad Pro_Black;
+        font-size: 36px;
+        line-height: 43px;
+    }
 }
 
-.h5disenioHome {
-    font-family: Myriad Pro_Regular;
-    font-size: 1.125rem;
-    line-height: 24px;
+@media screen and (max-width: 576px) {
+    h2 {
+        font-family: Myriad Pro_Black;
+        font-size: 29px;
+        line-height: 35px;
+    }
+}
+
+
+/* h3 */
+
+@media screen and (min-width: 960px) {
+    h3 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 28px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h3 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 27px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h3 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 25px;
+        line-height: 33px;
+    }
+}
+
+
+/* h4 */
+
+@media screen and (min-width: 960px) {
+    h4 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h4 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h4 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 21px;
+        line-height: 30px;
+    }
+}
+
+
+/* h5 */
+
+@media screen and (min-width: 960px) {
+    h5 {
+        font-family: Myriad Pro_Bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    h5 {
+        font-family: Myriad Pro_Bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    h5 {
+        font-family: Myriad Pro_Bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
 }
 
 p {
@@ -238,10 +337,61 @@ a.nav-link:hover {
     font-family: 'Myriad Pro_Semibold';
 }
 
+@media screen and (max-width: 540px) {
+    .btn-conoce-mas {
+        padding: 0.8rem 2.8rem;
+    }
+}
+
 .btn-conoce-mas:hover {
     text-decoration: none;
     color: #ffffff;
     background: #547E8C;
+}
+
+@media screen and (max-width: 350px) {
+    .btn-conoce-mas-g {
+        padding: 0.8rem 0.7rem;
+        background: #5C8A99;
+        color: #FFFF;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-conoce-mas:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .btn-conoce-mas-g {
+        padding: 0.8rem 1.1rem;
+        background: #5C8A99;
+        color: #FFFF;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-conoce-mas:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .btn-conoce-mas-g {
+        padding: 0.8rem 2.8rem;
+        background: #5C8A99;
+        color: #FFFF;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-conoce-mas:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
 }
 
 
@@ -598,19 +748,36 @@ textarea {
     background-color: #F4F7FB;
 }
 
-.btn-modal {
-    padding: .8rem 3.8rem;
-    border: 1px solid transparent;
-    color: #fff;
-    background: #5C8A99;
-    font-size: 18px;
-    font-family: 'Myriad Pro_Semibold';
+@media screen and (min-width: 500px) {
+    .btn-modal {
+        padding: .8rem 3.8rem;
+        border: 1px solid transparent;
+        color: #fff;
+        background: #5C8A99;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-modal:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
 }
 
-.btn-modal:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background: #547E8C;
+@media screen and (max-width: 500px) {
+    .btn-modal {
+        padding: 0.8rem 2.6rem;
+        border: 1px solid transparent;
+        color: #fff;
+        background: #5C8A99;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-modal:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
 }
 
 .btn-modal:focus {
@@ -936,4 +1103,12 @@ textarea {
     text-decoration: none;
     color: #ffffff;
     background: #547E8C;
+}
+
+.btn-conoce-mas-1 {
+    padding: 0.8rem 4.8rem;
+    background: #5C8A99;
+    color: #FFFF;
+    font-size: 18px;
+    font-family: 'Myriad Pro_Semibold';
 }

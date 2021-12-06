@@ -78,7 +78,7 @@
 			<#if show_footer>
 				<footer>
 					<section class="datos-banner">
-						<div class="mt-1 pt-1 pb-2 mx-5">
+						<div class="mt-1 pt-1 pb-2 mx-1 mx-md-5">
 							<div class="container">
 								<div class="mt-1 py-2 d-flex justify-content-center">
 									<div id="footer.listado" class="row my-2">
@@ -94,7 +94,7 @@
 							</div>
 		
 							<div class="row border-top ">
-								<div class=" col-fluid-lg-8 pt-4 ml-1 ">
+								<div class=" col-fluid-lg-8 pt-4 ml-3">
 									<img src="https://i.ibb.co/b52Nzm2/logo-datum-redsoft-white.png" style="max-width: 250px;">
 								</div>
 							</div>
@@ -105,14 +105,14 @@
 									<p> Síguenos</p>
 								</div>
 								<div class="col-9 col-md-7">
-									<a class="mr-2" href="# "><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-2" href="# "><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-2" href="# "><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-2" href="# "><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-2" href="# "><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="# "><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="# "><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="# "><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="# "><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="# "><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt=" "></a>
 								</div>
 							
-								<div class=" col-12 col-md-6 col-lg-4 bd-highlight">
+								<div class=" col-12 col-md-6 col-lg-4 bd-highlight d-flex justify-content-start justify-content-lg-end">
 									<p class=" text-left text-md-right">Copyright 2021. Datum Redsoft.</p>
 								</div>
 							</div>
