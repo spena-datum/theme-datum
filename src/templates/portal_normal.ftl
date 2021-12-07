@@ -79,28 +79,26 @@
 				<footer>
 					<section class="datos-banner">
 						<div class="mt-1 pt-1 pb-2 mx-1 mx-md-5">
-							<div class="container">
+							<div class="container-footer">
 								<div class="mt-1 py-2 d-flex justify-content-center">
-									<div id="footer.listado" class="row my-2">
-										<div class="col-lg-12 d-none d-md-block  my-2">
+								
 									
 										<#assign footerPreferences = freeMarkerPortletPreferences.getPreferences("portletSetupPortletDecoratorId", "barebone") />
 									
 										<@liferay.navigation_menu default_preferences="${footerPreferences}" instance_id="footer"/>
 		
-									</div>
-									</div>
+							
 								</div>
 							</div>
 		
-							<div class="row border-top ">
-								<div class=" col-fluid-lg-8 pt-4 ml-3">
+							<div class="row border-top mx-1">
+								<div class=" col-fluid-lg-8 pt-4 ml-3 ml-md-1">
 									<img src="https://i.ibb.co/b52Nzm2/logo-datum-redsoft-white.png" style="max-width: 250px;">
 								</div>
 							</div>
 		
 		
-							<div class="row my-3">
+							<div class="row my-3 pl-4 pl-md-2">
 								<div class="col-3 col-md-1  bd-highlight ">
 									<p> Síguenos</p>
 								</div>
