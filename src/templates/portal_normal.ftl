@@ -103,11 +103,11 @@
 									<p> Síguenos</p>
 								</div>
 								<div class="col-9 col-md-7">
-									<a class="mr-1" href="# "><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-1" href="# "><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-1" href="# "><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-1" href="# "><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt=" "></a>
-									<a class="mr-1" href="# "><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="https://www.linkedin.com/company/datum-redsoft" target="_blank"><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="https://www.facebook.com/DATUMREDSOFT/ " target="_blank"><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="https://www.instagram.com/datumredsoft/?hl=es-la" target="_blank"><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="https://mobile.twitter.com/datumredsoft" target="_blank"><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt=" "></a>
+									<a class="mr-1" href="https://open.spotify.com/show/00kreL0cll69zK6cGAm8rE" target="_blank"><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt=" "></a>
 								</div>
 							
 								<div class=" col-12 col-md-6 col-lg-4 bd-highlight d-flex justify-content-start justify-content-lg-end">
