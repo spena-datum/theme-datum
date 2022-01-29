@@ -1,0 +1,72 @@
+{
+    "publicPages": [{
+            "friendlyURL": "/home",
+            "name": "Inicio",
+            "title": "Inicio"
+        },
+        {
+            "friendlyURL": "/eventos",
+            "name": "Eventos",
+            "title": "Eventos"
+        },
+        {
+            "friendlyURL": "/contáctenos",
+            "name": "Contáctenos",
+            "title": "Contáctenos"
+        },
+        {
+            "friendlyURL": "/educación",
+            "name": "Educación",
+            "title": "Educación"
+        },
+        {
+            "friendlyURL": "/soluciones",
+            "name": "Soluciones",
+            "title": "Soluciones"
+        },
+        {
+            "friendlyURL": "/rse",
+            "name": "RSE",
+            "title": "RSE"
+        },
+        {
+            "friendlyURL": "/unete-a-nuestro-equipo",
+            "name": "Únete a nuestro equipo",
+            "title": "Únete a nuestro equipo"
+        },
+        {
+            "friendlyURL": "/socios",
+            "name": "Socios",
+            "title": "Socios"
+        },
+        {
+            "friendlyURL": "/compañia",
+            "name": "Compañia",
+            "title": "Compañia"
+        },
+        {
+            "friendlyURL": "/search",
+            "name": "Busqueda",
+            "title": "Busqueda",
+            "hidden": "true"
+        },
+        {
+            "friendlyURL": "/notfound",
+            "name": "Not found",
+            "title": "Not found",
+            "hidden": "true"
+        },
+        {
+            "friendlyURL": "/documents/*",
+            "name": "Documents",
+            "title": "Documents",
+            "hidden": "true"
+        },
+        {
+            "friendlyURL": "/c/portal/login",
+            "name": "Login",
+            "title": "Login",
+            "hidden": "true"
+        }
+    ]
+}
