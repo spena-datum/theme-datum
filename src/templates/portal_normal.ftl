@@ -16,7 +16,16 @@
 	<meta name="msapplication-TileColor" content="#a20630">
 	<meta name="msapplication-config" content="${ruta}/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/soluciones">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/compañia">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/socios">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/educación">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/eventos">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/evento">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/contáctenos">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/rse">
+	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/unete-a-nuestro-equipo">
  
 
 	<!–– inicio ––>
