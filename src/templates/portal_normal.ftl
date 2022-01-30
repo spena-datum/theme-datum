@@ -100,29 +100,27 @@
 								</div>
 							</div>
 		
-							<div class="row border-top mx-1">
-								<div class=" col-fluid-lg-8 pt-4 ml-3 ml-md-1">
-									<img src="https://i.ibb.co/b52Nzm2/logo-datum-redsoft-white.png" style="max-width: 250px;" alt="redsoft">
-								</div>
-							</div>
 		
 		
-							<div class="row my-3 pl-4 pl-md-2">
-								<div class="col-3 col-md-1  bd-highlight ">
-									<p> Síguenos</p>
-								</div>
-								<div class="col-9 col-md-7">
-									<a class="mr-1" href="https://www.linkedin.com/company/datum-redsoft" target="_blank"><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" Linkedin"></a>
-									<a class="mr-1" href="https://www.facebook.com/DATUMREDSOFT/ " target="_blank"><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt="Facebook"></a>
-									<a class="mr-1" href="https://www.instagram.com/datumredsoft/?hl=es-la" target="_blank"><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt="Instagram"></a>
-									<a class="mr-1" href="https://mobile.twitter.com/datumredsoft" target="_blank"><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt="Twitter"></a>
-									<a class="mr-1" href="https://open.spotify.com/show/00kreL0cll69zK6cGAm8rE" target="_blank"><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt="Spotify"></a>
-								</div>
-							
-								<div class=" col-12 col-md-6 col-lg-4 bd-highlight d-flex justify-content-start justify-content-lg-end">
-									<p class=" text-left text-md-right">Copyright 2021. Datum Redsoft.</p>
-								</div>
-							</div>
+							   <div class=" border-top mx-3 ">
+                    <div class=" col-fluid-lg-8 pt-4 ">
+                        <img src="https://i.ibb.co/b52Nzm2/logo-datum-redsoft-white.png" style="max-width: 250px;" alt="redsoft">
+                    </div>
+                    <div class="row my-3 ">
+                        <div class="col-12 col-md-6  d-flex justify-content-start  bd-highlight ">
+                            <p class="mr-4"> Síguenos</p>
+                            <a class="mr-1" href="https://www.linkedin.com/company/datum-redsoft" target="_blank"><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" Linkedin"></a>
+                            <a class="mr-1" href="https://www.facebook.com/DATUMREDSOFT/ " target="_blank"><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt="Facebook"></a>
+                            <a class="mr-1" href="https://www.instagram.com/datumredsoft/?hl=es-la" target="_blank"><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt="Instagram"></a>
+                            <a class="mr-1" href="https://mobile.twitter.com/datumredsoft" target="_blank"><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt="Twitter"></a>
+                            <a class="mr-1" href="https://open.spotify.com/show/00kreL0cll69zK6cGAm8rE" target="_blank"><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt="Spotify"></a>
+                        </div>
+
+                        <div class=" col-12 col-md-6 bd-highlight d-flex justify-content-start   justify-content-md-end">
+                            <p class=" text-left text-md-right" style="min-width: 215px;">Copyright 2022. Datum Redsoft.</p>
+                        </div>
+                    </div>
+                </div>
 						</div>
 					</section>
 				</footer>
