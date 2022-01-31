@@ -47,7 +47,7 @@
 			</header>
 		<#else>
 			<header id="banner" role="banner" class="fixed-top" style="display: none;">
-				<a id="IconoMenu" data-redirect="${is_login_redirect_required?string}" href="${sign_out_url}" rel="nofollow">
+				<a id="IconoMenu" data-redirect="${is_login_redirect_required?string}" href="https://www.datumredsoft.com/c/portal/logout?referer=https://www.datumredsoft.com/" rel="nofollow">
 					<img src="${ruta}/img_datum/Header/ic_acceso_intranet.png" alt="ic_acceso_intranet"  width="32px" > 
 				</a>
 			</header>
