@@ -4,7 +4,7 @@
 <nav id="nav-menu" class="navbar navbar-expand-xl navbar-light  bg-light navbar-fixed-custom scroll-y-custom"  >
 </#if>
   <a class="navbar-brand" style="height: auto;margin-right: 0;min-width: 252px;padding-left: 0.5rem;padding-right: 0.5rem;" href="/">
-    <img class="datum-logo d-inline-block align-top" src="https://ibb.co/YysPKJW" style="max-width: 250px;" lt="logo de Datum">
+    <img class="datum-logo d-inline-block align-top" src="https://i.ibb.co/hZzLnrM/layout-set-logo.png" style="max-width: 250px;" alt="logo de Datum">
   </a>
   <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
