@@ -16,17 +16,38 @@
 	<meta name="msapplication-TileColor" content="#a20630">
 	<meta name="msapplication-config" content="${ruta}/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/soluciones">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/compañia">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/socios">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/educación">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/eventos">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/evento">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/contáctenos">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/rse">
-	<link rel="canonical" href="https://www.datumredsoft.com/web/guest/unete-a-nuestro-equipo">
- 
+	
+	<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.facebook.com/DATUMREDSOFT/">
+<meta property="og:title" content="DATUM REDSOFT Facebook">
+<meta property="og:description" content="Empresa de servicios de tecnología y Transformación digital, líder en consultorías, servicios, soporte 24/7, renovaciones, licencias y suscripciones en tecnología de la información en la región centroamericana.">
+<meta property="og:image" content="">
+
+<!-- Open Graph / Instagram -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.instagram.com/datumredsoft/?hl=en">
+<meta property="og:title" content="DATUM REDSOFT Instagram">
+<meta property="og:description" content="Empresa de servicios de tecnología y Transformación digital, líder en consultorías, servicios, soporte 24/7, renovaciones, licencias y suscripciones en tecnología de la información en la región centroamericana.">
+<meta property="og:image" content="">
+
+<!-- Open Graph / Linkedin -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.linkedin.com/company/datum-redsoft">
+<meta property="og:title" content="DATUM REDSOFT Linkedin">
+<meta property="og:description" content="Empresa de servicios de tecnología y Transformación digital, líder en consultorías, servicios, soporte 24/7, renovaciones, licencias y suscripciones en tecnología de la información en la región centroamericana.">
+
+<!-- Twitter -->
+<meta property="twitter:url" content="https://twitter.com/datumredsoft">
+<meta property="twitter:title" content="DATUM REDSOFT Twitter">
+<meta property="twitter:description" content="Empresa de servicios de tecnología y Transformación digital, líder en consultorías, servicios, soporte 24/7, renovaciones, licencias y suscripciones en tecnología de la información en la región centroamericana.">
+
+
+<!-- Open Graph / Spotify -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://open.spotify.com/show/00kreL0cll69zK6cGAm8rE">
+<meta property="og:title" content="DATUM REDSOFT Spotify">
+<meta property="og:description" content="Empresa de servicios de tecnología y Transformación digital, líder en consultorías, servicios, soporte 24/7, renovaciones, licencias y suscripciones en tecnología de la información en la región centroamericana.">
 
 	<!–– inicio ––>
 	<@liferay_util["include"] page=top_head_include />
