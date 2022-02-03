@@ -329,14 +329,6 @@ a.nav-link:hover {
     font-size: 50px;
 }
 
-.btn-conoce-mas {
-    padding: 0.8rem 3.8rem;
-    background: #5C8A99;
-    color: #FFFF;
-    font-size: 18px;
-    font-family: 'Myriad Pro_Semibold';
-}
-
 @media screen and (max-width: 540px) {
     .btn-conoce-mas {
         padding: 0.8rem 2.8rem;
@@ -620,20 +612,6 @@ a.nav-link:hover {
 }
 */
 
-.btn-inscribirse {
-    padding: 1rem 3rem;
-    font-weight: 700;
-    background: #5c8a99;
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn-inscribirse:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background: #547E8C;
-}
-
 .btn-container-inscribirse {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -907,21 +885,116 @@ textarea {
     text-align: left;
 }
 
-.card-mision-vision-valores {
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #5C8A99;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .5rem;
+@media screen and (min-width: 280px) {
+    .card-mision-vision-valores {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #5C8A99;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .5rem;
+        width: 20rem;
+        min-width: 17rem;
+        height: 23rem;
+    }
+    .cardsocio {
+        min-width: 17rem;
+        width: 21rem;
+        height: 20rem;
+    }
+    //Tamaño imagen principal para cursos en educacion oracle,red hat, certjoin
+    .imagencurso {
+        width: 350px !important;
+        min-width: 280px !important;
+    }
+    //Tamaño buscador de educacion
+    .tamaniobuscador {
+        max-width: 950px;
+        min-width: 250px;
+    }
+    .btn-conoce-mas {
+        padding: 0.8rem 3.8rem;
+        background: #5C8A99;
+        color: #FFFF;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    //Boton que se muestra en cards de cursos de educacion 
+    .btn-inscribirse {
+        padding: 1rem 3rem;
+        font-weight: 700;
+        background: #5c8a99;
+        color: #fff;
+        text-decoration: none;
+    }
+    .btn-inscribirse:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .card-mision-vision-valores {
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #5C8A99;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .5rem;
+        width: 25rem !important;
+        min-width: 17rem !important;
+        height: 28rem !important;
+    }
+    .cardsocio {
+        min-width: 17rem;
+        width: 23rem;
+        height: 23rem;
+    }
+    .imagencurso {
+        width: 400px !important;
+        min-width: 280px !important;
+    }
+    .tamaniobuscador {
+        max-width: 1100px;
+        min-width: 250px;
+    }
+    .btn-conoce-mas {
+        padding: 1rem 4rem;
+        background: #5C8A99;
+        color: #FFFF;
+        font-size: 24px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-inscribirse {
+        padding: 1.2rem 3.2rem;
+        font-weight: 700;
+        background: #5c8a99;
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .btn-inscribirse:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
 }
 
 .card-pag-partner {
