@@ -45,147 +45,144 @@
 }
 
 
-/*media 
+/*media hasta movil 576px */
 
-
-/* h1 */
-
-@media screen and (min-width: 960px) {
-    h1 {
-        font-family: Myriad Pro_Black;
-        font-size: 54px;
-        line-height: 60px;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    h1 {
-        font-family: Myriad Pro_Black;
-        font-size: 45px;
-        line-height: 51px;
-    }
-}
-
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 300px) {
     h1 {
         font-family: Myriad Pro_Black;
         font-size: 36px;
         line-height: 42px;
     }
-}
-
-
-/* h2 */
-
-@media screen and (min-width: 960px) {
-    h2 {
-        font-family: Myriad Pro_Black;
-        font-size: 42px;
-        line-height: 48px;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    h2 {
-        font-family: Myriad Pro_Black;
-        font-size: 36px;
-        line-height: 43px;
-    }
-}
-
-@media screen and (max-width: 576px) {
     h2 {
         font-family: Myriad Pro_Black;
         font-size: 29px;
         line-height: 35px;
     }
-}
-
-
-/* h3 */
-
-@media screen and (min-width: 960px) {
-    h3 {
-        font-family: Myriad Pro_Semibold;
-        font-size: 28px;
-        line-height: 36px;
-    }
-}
-
-@media screen and (min-width: 576px) {
-    h3 {
-        font-family: Myriad Pro_Semibold;
-        font-size: 27px;
-        line-height: 35px;
-    }
-}
-
-@media screen and (max-width: 576px) {
     h3 {
         font-family: Myriad Pro_Semibold;
         font-size: 25px;
         line-height: 33px;
     }
-}
-
-
-/* h4 */
-
-@media screen and (min-width: 960px) {
     h4 {
         font-family: Myriad Pro_Semibold;
         font-size: 21px;
         line-height: 30px;
     }
+    h5 {
+        font-family: Myriad Pro_Bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    p {
+        font-family: Myriad Pro_Regular;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
-@media screen and (min-width: 576px) {
+
+/*media hasta tablets 960px */
+
+@media screen and (min-width: 560px) {
+    h1 {
+        font-family: Myriad Pro_Black;
+        font-size: 45px;
+        line-height: 51px;
+    }
+    h2 {
+        font-family: Myriad Pro_Black;
+        font-size: 36px;
+        line-height: 43px;
+    }
+    h3 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 27px;
+        line-height: 35px;
+    }
     h4 {
         font-family: Myriad Pro_Semibold;
         font-size: 21px;
         line-height: 30px;
     }
+    h5 {
+        font-family: Myriad Pro_Bold;
+        font-size: 18px;
+        line-height: 24px;
+    }
+    p {
+        font-family: Myriad Pro_Regular;
+        font-size: 16px;
+        line-height: 24px;
+    }
 }
 
-@media screen and (max-width: 576px) {
+
+/*media para monitores normales 1300px */
+
+@media screen and (min-width: 980px) {
+    h1 {
+        font-family: Myriad Pro_Black;
+        font-size: 54px;
+        line-height: 60px;
+    }
+    h2 {
+        font-family: Myriad Pro_Black;
+        font-size: 42px;
+        line-height: 48px;
+    }
+    h3 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 28px;
+        line-height: 38px;
+    }
     h4 {
         font-family: Myriad Pro_Semibold;
         font-size: 21px;
         line-height: 30px;
     }
-}
-
-
-/* h5 */
-
-@media screen and (min-width: 960px) {
     h5 {
         font-family: Myriad Pro_Bold;
         font-size: 18px;
         line-height: 24px;
     }
-}
-
-@media screen and (min-width: 576px) {
-    h5 {
-        font-family: Myriad Pro_Bold;
-        font-size: 18px;
+    p {
+        font-family: Myriad Pro_Regular;
+        font-size: 16px;
         line-height: 24px;
     }
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 1500px) {
+    h1 {
+        font-family: Myriad Pro_Black;
+        font-size: 63px;
+        line-height: 69px;
+    }
+    h2 {
+        font-family: Myriad Pro_Black;
+        font-size: 54px;
+        line-height: 60px;
+    }
+    h3 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 37px;
+        line-height: 47px;
+    }
+    h4 {
+        font-family: Myriad Pro_Semibold;
+        font-size: 29px;
+        line-height: 34px;
+    }
     h5 {
         font-family: Myriad Pro_Bold;
-        font-size: 18px;
-        line-height: 24px;
+        font-size: 24px;
+        line-height: 32px;
     }
-}
-
-p {
-    font-family: Myriad Pro_Regular;
-    font-size: 1rem;
-    line-height: 24px;
+    p {
+        font-family: Myriad Pro_Regular;
+        font-size: 21px;
+        line-height: 28px;
+    }
 }
 
 .a {
@@ -443,23 +440,46 @@ a.nav-link:hover {
 
 /*Card en partners de pagina home*/
 
-.card-home-partner {
-    width: 18rem;
-    height: 12rem;
-    position: relative;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-color: #fff;
-    background-clip: border-box;
-    border: 1px solid rgba(0, 0, 0, .125);
-    border-radius: .25rem;
+@media screen and (min-width: 300px) {
+    .card-home-partner {
+        width: 18rem;
+        height: 12rem;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .card-home-partner {
+        width: 22rem;
+        height: 14rem;
+        position: relative;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: #fff;
+        background-clip: border-box;
+        border: 1px solid rgba(0, 0, 0, .125);
+        border-radius: .25rem;
+    }
 }
 
 .card-home-cliente {
