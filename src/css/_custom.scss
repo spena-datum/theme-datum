@@ -940,6 +940,47 @@ textarea {
         color: #ffffff;
         background: #547E8C;
     }
+    //Boton que se muestra en cards de eventos
+    .btn-conoce-mas-educacion {
+        padding: .8rem 3.8rem;
+        border: 1px solid transparent;
+        color: #fff;
+        background: #5C8A99;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-conoce-mas-educacion:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
+    //Texto del card de eventos
+    .pcard_evento {
+        font-family: Myriad Pro_Regular;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 6px;
+        margin-top: 3px;
+    }
+    //Tamaño de texto del header opciones de menu
+    .headertexto {
+        font-size: 18px;
+        font-family: Myriad Pro_Semibold;
+        line-height: 32px;
+    }
+    //boton del header
+    .btn-menu-contactenos {
+        padding: 10px 25px;
+        background: #5c8a99;
+        color: #FFFF;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-menu-contactenos:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -995,6 +1036,43 @@ textarea {
         color: #ffffff;
         background: #547E8C;
     }
+    .btn-conoce-mas-educacion {
+        padding: 1rem 4rem;
+        border: 1px solid transparent;
+        color: #fff;
+        background: #5C8A99;
+        font-size: 18px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-conoce-mas-educacion:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
+    .pcard_evento {
+        font-family: Myriad Pro_Regular;
+        font-size: 20px;
+        line-height: 24px;
+        margin-bottom: 6px;
+        margin-top: 3px;
+    }
+    .headertexto {
+        font-size: 20px;
+        font-family: Myriad Pro_Semibold;
+        line-height: 32px;
+    }
+    .btn-menu-contactenos {
+        padding: 12px 28px;
+        background: #5c8a99;
+        color: #FFFF;
+        font-size: 20px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    .btn-menu-contactenos:hover {
+        text-decoration: none;
+        color: #ffffff;
+        background: #547E8C;
+    }
 }
 
 .card-pag-partner {
@@ -1040,21 +1118,6 @@ textarea {
     background-clip: border-box;
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .6rem;
-}
-
-.btn-conoce-mas-educacion {
-    padding: .8rem 3.8rem;
-    border: 1px solid transparent;
-    color: #fff;
-    background: #5C8A99;
-    font-size: 18px;
-    font-family: 'Myriad Pro_Semibold';
-}
-
-.btn-conoce-mas-educacion:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background: #547E8C;
 }
 
 .btn-form {
@@ -1106,20 +1169,6 @@ textarea {
     font-family: 'Myriad Pro_Regular';
     font-size: 1rem;
     line-height: 44px;
-}
-
-.btn-menu-contactenos {
-    padding: 10px 25px;
-    background: #5c8a99;
-    color: #FFFF;
-    font-size: 18px;
-    font-family: 'Myriad Pro_Semibold';
-}
-
-.btn-menu-contactenos:hover {
-    text-decoration: none;
-    color: #ffffff;
-    background: #547E8C;
 }
 
 .contenedor-sin-sesion {
