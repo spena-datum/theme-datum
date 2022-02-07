@@ -16,7 +16,7 @@
 	<meta name="msapplication-TileColor" content="#a20630">
 	<meta name="msapplication-config" content="${ruta}/icons/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	
+
 	<!-- Open Graph / Facebook -->
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.facebook.com/DATUMREDSOFT/">
@@ -24,7 +24,7 @@
 <meta property="og:description" content="Empresa de servicios de tecnología y Transformación digital, líder en consultorías, servicios, soporte 24/7, renovaciones, licencias y suscripciones en tecnología de la información en la región centroamericana.">
 <meta property="og:image" content="">
 
-<!-- Open Graph / Instagram -->
+<!-- Open Graph / Instagram -->		
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://www.instagram.com/datumredsoft/?hl=en">
 <meta property="og:title" content="DATUM REDSOFT Instagram">
@@ -125,16 +125,16 @@
 		
 							   <div class=" border-top mx-3 ">
                     <div class=" col-fluid-lg-8 pt-4 ">
-                        <img src="https://i.ibb.co/b52Nzm2/logo-datum-redsoft-white.png" style="max-width: 250px;" alt="redsoft">
+                        <img class="logofooter" src="https://i.ibb.co/b52Nzm2/logo-datum-redsoft-white.png"  alt="redsoft">
                     </div>
                     <div class="row my-3 ">
                         <div class="col-12 col-md-6  d-flex justify-content-start  bd-highlight ">
                             <p class="mr-4"> Síguenos</p>
-                            <a class="mr-1" href="https://www.linkedin.com/company/datum-redsoft" target="_blank"><img src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png" style="max-width: 25px ; " alt=" Linkedin"></a>
-                            <a class="mr-1" href="https://www.facebook.com/DATUMREDSOFT/ " target="_blank"><img src="https://i.ibb.co/bvFvZf3/ic-facebook.png" style="max-width: 25px ; " alt="Facebook"></a>
-                            <a class="mr-1" href="https://www.instagram.com/datumredsoft/?hl=es-la" target="_blank"><img src="https://i.ibb.co/74DkQXw/ic-instagram.png" style="max-width: 25px ; " alt="Instagram"></a>
-                            <a class="mr-1" href="https://mobile.twitter.com/datumredsoft" target="_blank"><img src="https://i.ibb.co/D5jfLcQ/ic-twitter.png" style="max-width: 25px ; " alt="Twitter"></a>
-                            <a class="mr-1" href="https://open.spotify.com/show/00kreL0cll69zK6cGAm8rE" target="_blank"><img src="https://i.ibb.co/KmKW1Db/ic-spotify.png" style="max-width: 25px ; " alt="Spotify"></a>
+                            <a class="mr-1 " href="https://www.linkedin.com/company/datum-redsoft" target="_blank"><img class="redsocialtamanio" src="https://i.ibb.co/9Y3PM7M/ic-linkedin.png"  alt=" Linkedin"></a>
+                            <a class="mr-1 " href="https://www.facebook.com/DATUMREDSOFT/ " target="_blank"><img class="redsocialtamanio" src="https://i.ibb.co/bvFvZf3/ic-facebook.png"  alt="Facebook"></a>
+                            <a class="mr-1 " href="https://www.instagram.com/datumredsoft/?hl=es-la" target="_blank"><img class="redsocialtamanio" src="https://i.ibb.co/74DkQXw/ic-instagram.png"  alt="Instagram"></a>
+                            <a class="mr-1 " href="https://mobile.twitter.com/datumredsoft" target="_blank"><img class="redsocialtamanio" src="https://i.ibb.co/D5jfLcQ/ic-twitter.png"  alt="Twitter"></a>
+                            <a class="mr-1 " href="https://open.spotify.com/show/00kreL0cll69zK6cGAm8rE" target="_blank"><img class="redsocialtamanio" src="https://i.ibb.co/KmKW1Db/ic-spotify.png" alt="Spotify"></a>
                         </div>
 
                         <div class=" col-12 col-md-6 bd-highlight d-flex justify-content-start   justify-content-md-end">

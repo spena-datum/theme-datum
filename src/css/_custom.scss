@@ -981,6 +981,23 @@ textarea {
         color: #ffffff;
         background: #547E8C;
     }
+    //Imagen logo del menu del header
+    .logoheader {
+        max-width: 250px;
+    }
+    //Tamaño de texto footer opciones de menu
+    .footertexto {
+        font-size: 18px;
+        font-family: Myriad Pro_Semibold;
+        line-height: 32px;
+        color: #fff;
+    }
+    .logofooter {
+        max-width: 250px;
+    }
+    .redsocialtamanio {
+        max-width: 25px;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -1072,6 +1089,21 @@ textarea {
         text-decoration: none;
         color: #ffffff;
         background: #547E8C;
+    }
+    .logoheader {
+        max-width: 300px;
+    }
+    .footertexto {
+        font-size: 24px;
+        font-family: Myriad Pro_Semibold;
+        line-height: 32px;
+        color: #fff;
+    }
+    .logofooter {
+        max-width: 320px;
+    }
+    .redsocialtamanio {
+        max-width: 35px;
     }
 }
 
