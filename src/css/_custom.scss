@@ -47,7 +47,7 @@
 
 /*media hasta movil 576px */
 
-@media screen and (min-width: 300px) {
+@media screen and (min-width: 200px) {
     h1 {
         font-family: Myriad Pro_Black;
         font-size: 36px;
@@ -594,24 +594,6 @@ a.nav-link:hover {
     font-weight: 900;
 }
 
-
-/*
-.redes-sociales{
-  color: #7EA4B1;
-}
-
-.redes-sociales i{
-  background-color: white;
-  
-}
-
-.red-social{
- color: red;
- 
- margin-bottom: 50px;
-}
-*/
-
 .btn-container-inscribirse {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -885,7 +867,7 @@ textarea {
     text-align: left;
 }
 
-@media screen and (min-width: 280px) {
+@media screen and (min-width: 100px) {
     .card-mision-vision-valores {
         position: relative;
         display: -webkit-box;
@@ -998,6 +980,56 @@ textarea {
     .redsocialtamanio {
         max-width: 25px;
     }
+    // Seccion conoce nuestros áreas de negocio
+    .imagennegocio {
+        max-width: 70px !important;
+    }
+    .textonegocio {
+        min-width: 175px;
+        max-width: 175px;
+        margin: 0 auto;
+    }
+    .descripnegocio {
+        max-width: 500px;
+    }
+    // Seccion lideres en el mercado Home 
+    .titulolideres {
+        max-width: 550px;
+        min-width: 400px;
+    }
+    .descripcionlideres {
+        max-width: 550px;
+        min-width: 200px;
+    }
+    // Seccion competencias Home 
+    .imagencompetencias {
+        max-width: 100px !important;
+    }
+    //Seccion Capacitate junto a nosotros partners
+    .btn-conoce-mas-g {
+        padding: 0.8rem 0.7rem;
+    }
+    .imagencapacitate {
+        max-width: 200px !important;
+    }
+    .descripcioncapacitate {
+        max-width: 520px;
+        min-width: 280px;
+    }
+    // Seccion Home carousel nuestros clientes
+    .imagennuestrosclientes {
+        max-width: 18rem !important;
+        min-width: 15rem !important;
+    }
+    // Seccion Home carousel nuestros clientes
+    .imagentransformacion {
+        width: 200px !important;
+        min-width: 150px !important;
+    }
+    .telefono {
+        width: 12px !important;
+        height: 12px !important;
+    }
 }
 
 @media screen and (min-width: 1400px) {
@@ -1105,6 +1137,60 @@ textarea {
     .redsocialtamanio {
         max-width: 35px;
     }
+    // Seccion conoce nuestros áreas de negocio monitores grandes
+    .imagennegocio {
+        max-width: 90px !important;
+    }
+    .textonegocio {
+        min-width: 175px;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    .descripnegocio {
+        max-width: 670px;
+    }
+    // Seccion lideres en el mercado Home monitores grandes
+    .titulolideres {
+        max-width: 650px;
+        min-width: 450px;
+    }
+    .descripcionlideres {
+        max-width: 750px;
+        min-width: 200px;
+    }
+    // Seccion competencias Home monitores grandes
+    .imagencompetencias {
+        max-width: 120px !important;
+    }
+    //Seccion Capacitate junto a nosotros partners Home monitores grandes
+    .imagencapacitate {
+        max-width: 250px !important;
+    }
+    .descripcioncapacitate {
+        max-width: 680px;
+        min-width: 280px;
+    }
+    .btn-conoce-mas-g {
+        padding: 1rem 3rem;
+        background: #5C8A99;
+        color: #FFFF;
+        font-size: 24px;
+        font-family: 'Myriad Pro_Semibold';
+    }
+    // Seccion Home carousel nuestros clientes
+    .imagennuestrosclientes {
+        max-width: 22rem !important;
+        min-width: 15rem !important;
+    }
+    // Seccion listo para la transformacion digital home 
+    .imagentransformacion {
+        width: 300px !important;
+        min-width: 150px !important;
+    }
+    .telefono {
+        width: 18px !important;
+        height: 18px !important;
+    }
 }
 
 .card-pag-partner {
@@ -1183,24 +1269,6 @@ textarea {
 
 .modal-dialog-evento {
     max-width: 900px;
-}
-
-.p1 {
-    font-family: 'Myriad Pro_Regular';
-    font-size: 1rem;
-    line-height: 24px;
-}
-
-.p2 {
-    font-family: 'Myriad Pro_Semibold';
-    font-size: 1rem;
-    line-height: 24px;
-}
-
-.p3 {
-    font-family: 'Myriad Pro_Regular';
-    font-size: 1rem;
-    line-height: 44px;
 }
 
 .contenedor-sin-sesion {
